@@ -1,6 +1,7 @@
 
 import React from "react";
 import Marque from "./Marque";
+import FooterSlider from "./Carousel";
 
 
 
@@ -15,6 +16,8 @@ const Footer = (props) => {
             <span key={index}>{index+'-'}{item}</span>
             ))}
         </marquee>
+
+        <FooterSlider/>
 
         <p>&copy; {new Date().getFullYear()} Design and Developed by <strong>aam</strong> </p>
     </footer>    
