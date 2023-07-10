@@ -1,9 +1,11 @@
+import React from "react";
+import MyComponent2 from "./TextboxValue";
 
 
 const Content=()=>{
     return(
         <>
-    <h3>this is Content</h3>
+    <MyComponent2/>
     </>
     )
     }

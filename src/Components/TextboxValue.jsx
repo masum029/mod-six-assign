@@ -60,6 +60,9 @@ function MyComponent2() {
       <h1>Title</h1>
       <input type="text" ref={inputRef} />
       <button onClick={handleButtonClick}>Display Value</button>
+      <p>You entered: </p>
     </div>
   );
 }
+
+export default MyComponent;
