@@ -120,4 +120,29 @@ const ButtonClick2 = () => {
   );
 };
 
+
+
+ class ButtonClick4 extends React.Component {
+  //const ButtonClick4 =()=>{
+  handleButtonClick() {
+    const value = document.getElementById('txtAreaVal').value;
+    document.getElementById('txtArea').textContent = value;
+    console.log('Input value:', value);
+  }
+
+  render() {
+    return (
+      <div>
+        <h4>Enter your comments below:</h4>
+        <textarea id="txtAreaVal" className="form-control" rows="2"></textarea>
+        <button className='btn btn-success' onClick={this.handleButtonClick}>Display Value</button>
+        <p id='txtArea'>You entered text will display here!!!!!!!!!!!</p>
+      </div>
+    );
+  }
+}
+
 export default ButtonClick2;
+
+
+
