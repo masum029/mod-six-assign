@@ -4,7 +4,7 @@ const Navbar = (props) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
- {props.title}
+        {props.title}
       </a>
       <button
         className="navbar-toggler"
@@ -31,6 +31,7 @@ const Navbar = (props) => {
             </a>
           </li>
         </ul>
+        
       </div>
     </nav>
   );

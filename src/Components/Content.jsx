@@ -1,12 +1,14 @@
 import React from "react";
 import MyComponent2 from "./TextboxValue";
+import Slider from "./Carousel";
 
 
 const Content=()=>{
     return(
         <>
-    <MyComponent2/>
-    </>
+            <Slider/>
+            <MyComponent2/>
+        </>
     )
     }
     export default Content;
